@@ -1,0 +1,80 @@
+*******************************************************************
+OUTPUT FILE
+*******************************************************************
+
+[sla@mercury1 HW6]$ ./mic1 prom_mrd.dat program.exe 0 1024                                                                                                              
+Read in 152 micro instructions
+Read in 213 machine instructions
+Starting PC is : 0000000000000000  base 10:       0
+Starting SP is : 0000010000000000  base 10:    1024
+
+Please enter a 1-5 digit number followed by enter
+235
+Please enter a 1-5 digit number followed by enter
+0
+The result is
+235 ¦Please enter a 1-5 digit number followed by enter
+16341
+Please enter a 1-5 digit number followed by enter
+957
+The result is
+17298 ¦Please enter a 1-5 digit number followed by enter
+23786
+Please enter a 1-5 digit number followed by enter
+12400
+ERROR - OVERFLOW
+
+ProgramCounter : 0000000000011111  base 10:      31
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000000100  base 10:    1028
+ARegister      : 0000000000000001  base 10:       1
+BRegister      : 1111111111111111  base 10:   65535
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0011000001110000  base 10:   12400
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 13562661
+
+Type decimal address to view memory,  q  to quit or  c  to continue: c
+
+The new PC is  : 0000000000011111
+
+The result is
+1 Please enter a 1-5 digit number followed by enter
+12
+Please enter a 1-5 digit number followed by enter
+23
+The result is
+35 #Please enter a 1-5 digit number followed by enter
+1
+Please enter a 1-5 digit number followed by enter
+1343
+The result is
+1344'@Please enter a 1-5 digit number followed by enter
+
+
+Please enter a 1-5 digit number followed by enter
+
+
+ERROR - OVERFLOW
+
+ProgramCounter : 0000000000011111  base 10:      31
+Accumulator    : 0000000000000000  base 10:       0
+InstructionReg : 1111111111000000  base 10:   65472
+TempInstr      : 1000000000000000  base 10:   32768
+StackPointer   : 0000010000001001  base 10:    1033
+ARegister      : 0000000000000001  base 10:       1
+BRegister      : 1111111111110110  base 10:   65526
+CRegister      : 0000000000000000  base 10:       0
+DRegister      : 0000000000000001  base 10:       1
+ERegister      : 0000000000000000  base 10:       0
+FRegister      : 0000000000000000  base 10:       0
+
+Total cycles   : 18231060
+
+Type decimal address to view memory,  q  to quit or  c  to continue: q
+MIC-1 emulator finishing, goodbye
+*******************************************************************

@@ -1,0 +1,28 @@
+******************************************************************************************************************************
+Make text file (Extra file)
+Name: Stephanie La
+******************************************************************************************************************************
+Commands to build each object
+
+./masm_mrd -o <main.asm> main.obj
+./masm_mrd -o <writeint.asm> writeint.obj
+./masm_mrd -o <writestr.asm> writestr.obj
+./masm_mrd -o <addints.asm> addints.obj
+./masm_mrd -o <readint.asm> readint.obj
+./masm_mrd -o <data.asm> data.obj
+./masm_mrd -o <xbsywt.asm> xbsywt.obj
+./masm_mrd -o <rbsywt.asm> rbsywt.obj
+
+******************************************************************************************************************************
+
+Commands to run linker and object exe
+
+gcc -o linker linker.c
+./linker main.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj> program.exe
+./mic1 prom_mrd.dat program.exe 0 1024
+******************************************************************************************************************************
+
+To make a consolidated file:
+
+ ./linker -o main.obj readint.obj writeint.obj writestr.obj addints.obj xbsywt.obj rbsywt.obj data.obj> hw6.obj
+******************************************************************************************************************************

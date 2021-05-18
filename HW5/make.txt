@@ -1,0 +1,26 @@
+***********************************************************
+Name: Stephanie La
+
+The commands used to build, run, and test the program are:
+
+./masm_mrd < a5.asm > add.obj
+./mic1 prom_mrd.dat add.obj 0 2000
+
+Breakdown
+----------------------------------------------------------
+
+I had to turn the asm file into an obj to compile the object 
+file with this line:
+./masm_mrd < a5.asm > add.obj
+
+and then I can run the program with this line with mic1:
+./mic1 prom_mrd.dat add.obj 0 2000
+
+I basically give the mic1 emulator the prom file with the 
+proper operators:
+right shift, multiply, and divide in order for the object
+file to comprehend and run the program.
+***********************************************************
+
+
+
