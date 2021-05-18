@@ -7,10 +7,7 @@ energy working on this assignment to really fully understand it and comment it
 to the best of my abilities. I did not have enough time to implement a 
 quotient sign check, but the division/ DIV operator should work fine. 
 Tokendefs.h is a complementary header file the professor wanted us to include
-to shorten the reference of tokens as he said in his lectures. I hope
-that I don't get a lot of points off, but I have felt more confident
-thanks to this assignment and the division operator. 
-Thank you so much for your patience!
+to shorten the reference of tokens as he said in his lectures.
 
 2. Although professor Moloney had revealed a significant 
 amount of code solution to the class, I was able to 
