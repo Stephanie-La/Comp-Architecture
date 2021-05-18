@@ -1,2 +1,2 @@
 # Comp-Architecture
-backup of my comp architecture files
+This is a backup of my comp architecture files. 
